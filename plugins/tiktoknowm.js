@@ -62,7 +62,7 @@ async function tiktok(url) {
       description: data.data.description,
       video: {
         with_watermark: `https://api.snaptik.site/download?key=${data.data.video.with_watermark}&type=video`,
-        no_watermark: `https://api.snaptik.site/download?key=${data.data.video.no_watermark}&type=video`,
+        no_watermark: `https://ttdownloader.com/dl.php?v=YTo0OntzOjk6IndhdGVybWFyayI7YjowO3M6NzoidmlkZW9JZCI7czozMjoiMWJiNjZmZGYzOGE2YjIwZDQyNWJmOGE4N2JhNWU1ZjgiO3M6MzoidWlkIjtzOjMyOiIyY2EwYjk1MzgzODk5Y2E0MGYxNDQ3ZGJhYTczMjExNSI7czo0OiJ0aW1lIjtpOjE2NTc4MjM3NDY7fQ==`,
         no_watermark_raw: data.data.video.no_watermark_raw
       },
       music: `https://api.snaptik.site/download?key=${data.data.music}&type=music`
